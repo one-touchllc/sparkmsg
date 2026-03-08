@@ -1,7 +1,7 @@
 {
   "name": "spark-messenger",
-  "version": "2.0.0",
-  "description": "Spark Messenger - Real-time Chat App",
+  "version": "3.0.0",
+  "description": "Spark Messenger - Real-time Chat App with Database",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -12,6 +12,9 @@
     "cors": "^2.8.5",
     "uuid": "^9.0.0",
     "bcryptjs": "^2.4.3",
-    "jsonwebtoken": "^9.0.2"
+    "jsonwebtoken": "^9.0.2",
+    "better-sqlite3": "^9.4.3",
+    "web-push": "^3.6.7",
+    "multer": "^1.4.5-lts.1"
   }
 }
